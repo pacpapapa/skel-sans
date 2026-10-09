@@ -1,0 +1,43 @@
+FONTLOG for Skel Sans
+
+This file records the origins and release history of the Skel Sans Font
+Software. For installation, downloads, features, and known limitations, see
+README.md or README-zh.md.
+
+
+Project
+-------
+
+Skel Sans is an open-source, generative CJK variable typeface built from the
+medial-axis skeletons of Noto Sans CJK. Instead of directly editing the original
+outlines, Skel Sans procedurally reconstructs glyphs as geometric strokes,
+creating a monolinear system that varies continuously in weight, width, and
+slant.
+
+Designer: Yuhao Chang
+Website: https://yuh4o.tw/
+Repository: https://github.com/pacpapapa/skel-sans
+
+
+Changes
+-------
+
+Version 1.000 - 10th October 2026
+
+- Initial public release.
+- Added four visual profiles: Vanilla, Claw, Wiggle, and Zigzag.
+- Added three variation axes: weight (wght), width (wdth), and slant (slnt).
+- Included 65,535 glyphs, with more than 65,000 generated from skeletons.
+- Added OTF (CFF2) and TTF (glyf/gvar) builds.
+- Added Full builds and six Lite builds for each visual profile.
+
+
+Acknowledgements
+----------------
+
+Skel Sans is derived from Noto Sans CJK. The source typeface, open-source
+libraries, tools, and development assistance are credited in the README files.
+
+The Skel Sans Font Software is licensed under the SIL Open Font License,
+Version 1.1. "Skel" is a Reserved Font Name. See LICENSE for the complete
+license text and copyright notices.
