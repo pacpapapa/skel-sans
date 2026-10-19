@@ -22,6 +22,34 @@ Repository: https://github.com/pacpapapa/skel-sans
 Changes
 -------
 
+Version 1.001 - 19th October 2026
+
+- Glyph shapes are unchanged from Version 1.000. This release corrects font
+  data only. Most changes restore Noto Sans CJK data that Version 1.000
+  omitted.
+- Restored OpenType features from Noto Sans CJK:
+  - Language-specific forms (locl) for the supported Chinese language
+    systems and Korean text.
+  - Bopomofo tone-mark positioning (mark). Combining tone marks now sit
+    above their Bopomofo letters and follow the width and slant axes.
+  - Old Hangul syllable composition (ljmo, vjmo, tjmo) and contextual
+    spacing between Hangul syllables (calt).
+  - JIS78, JIS83, JIS90, NLC, and historical forms (jp78, jp83, jp90, nlck,
+    hist), and access to all alternates (aalt).
+- Restored all 14,787 Unicode variation sequences from Noto Sans CJK,
+  including ideographic variation sequences (IVS). Version 1.000 registered
+  only 1,468 of them.
+- Restored the font data that lets Adobe applications recognize Skel Sans
+  as a CJK font. Version 1.000 was handled as a Roman font, so InDesign's
+  Japanese composer did not apply its CJK spacing rules and ideographic
+  variation sequences did not work.
+- Kerning and proportional CJK spacing (kern, palt, halt, vpal, vhal, vkrn)
+  now scale with the width axis. In Version 1.000 these values were fixed
+  at the default width.
+- Fixed 754 zero-width glyphs, mainly combining marks and old Hangul vowel
+  and final-consonant forms, that were set one em wide.
+
+
 Version 1.000 - 10th October 2026
 
 - Initial public release.
